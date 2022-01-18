@@ -1,0 +1,28 @@
+.color-navbar {
+  background-color: "#FFFF";
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-navbar {
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 700px;
+  align-items: center;
+}
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.box-profile {
+  align-items: center;
+}
+
+.fontawesomeicon {
+  display: flex;
+}
