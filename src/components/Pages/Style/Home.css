@@ -1,0 +1,27 @@
+.home-css {
+  background-image: url(D:\resume_france\Saharat\resume-saharat\src\assets\bg_home_page.jpg);
+  width: 100vw;
+  background-size: cover;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 5vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 60%;
+  text-align: center; /* Center text */
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+.typingeffect {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
