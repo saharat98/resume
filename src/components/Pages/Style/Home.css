@@ -1,27 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+
 .home-css {
-  background-image: url(D:\resume_france\Saharat\resume-saharat\src\assets\bg_home_page.jpg);
   width: 100vw;
   background-size: cover;
+  /* margin-left: 15%; */
+  min-height: 100vh;
 }
 .text {
   background-color: white;
   color: black;
-  font-size: 5vw; /* Responsive font size */
+  font-size: 5vw;
   font-weight: bold;
-  margin: 0 auto; /* Center the text container */
-  padding: 10px;
+  margin: 0 auto;
+  padding: 20px;
   width: 60%;
-  text-align: center; /* Center text */
+  text-align: center;
   display: flex;
   justify-content: center;
   margin-top: 100px;
-
-  mix-blend-mode: screen; /* This makes the cutout text possible */
+  mix-blend-mode: screen;
 }
 .typingeffect {
+  font-size: 3vw;
   align-items: center;
   text-align: center;
   display: flex;
   justify-content: center;
   color: #000;
+  font-family: "Anton", sans-serif;
 }

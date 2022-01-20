@@ -16,14 +16,19 @@ function Navigation(props) {
             className="profile-pic"
           />
 
-          <p style={{ color: "yellow", fontSize: "22px" }}>Saharat penwijit</p>
-          {/* <p style={{ paddingLeft: "5%" }}>
-          I am very interested and eager to find more knowledge In programming
-          and wanting to work To develop a program
-        </p> */}
+          <p
+            style={{
+              color: "yellow",
+              fontSize: "22px",
+              fontFamily: "'Archivo Black",
+            }}
+          >
+            SAHARAT
+          </p>
+        
           <div className="color-navbar">
             <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link href="/abount">Abount</Nav.Link>
+            <Nav.Link href="/abount">About</Nav.Link>
             <Nav.Link href="/portfolio">Portfolio</Nav.Link>
             <Nav.Link href="/contect">Contect</Nav.Link>
           </div>
