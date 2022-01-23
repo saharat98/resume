@@ -1,7 +1,8 @@
 h2 {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
+  flex: 1;
 }
 
 .about-css {
@@ -20,26 +21,46 @@ h2 {
 }
 
 .text-about {
-  /* display: flex; */
-  /* justify-content: center; */
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
 }
-.title-left-box {
-  height: 30%;
-  width: 100%;
+
+table {
+  border: 2px solid rgb(65, 65, 65);
+  width: 40%;
+  /* margin-left: 10px; */
 }
-.detail-left-box {
-  height: 100%;
-  width: 50%;
+thead {
+  text-align: center;
+}
+td {
+  text-align: center;
+}
+tr {
+  height: 50px;
+}
+.detail-middle-box {
   display: flex;
+  margin-left: 50px;
+  justify-content: space-evenly;
+  justify-self: center;
+  /* flex-direction: column; */
 }
-.container-each-detail-box {
-  padding: 0% 10% 10% 10%;
-}
-.container-border-detail-left-middle-box {
-  /* display: flex; */
+
+.skills-detail {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   width: 100%;
-  height: 70%;
-  border: 2px solid;
-  border-color: #e7e7e7;
+  height: 100%;
+  gap: 0;
+  grid-row-gap: 50px;
+}
+
+@media (max-width: 376px) {
+  .detail-middle-box,
+  .skills-detail {
+    flex-direction: column;
+    display: flex;
+  }
 }

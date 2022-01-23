@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
 
 .home-css {
   width: 100vw;
@@ -28,5 +28,35 @@
   display: flex;
   justify-content: center;
   color: #000;
+  margin-top: 50px;
   font-family: "Anton", sans-serif;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: "Archivo Black", sans-serif;
+}
+.button3 {
+  background-color: #f44336;
+  color: rgb(255, 255, 255);
+  border: 2px solid #f44336;
+  border-radius: 15px;
+}
+
+.button3:hover {
+  background-color: #ffffff;
+  color: #f44336;
+}
+
+.Center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

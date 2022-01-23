@@ -1,35 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
-
-.color-navbar {
-  background-color: "#FFFF";
+.Nav {
+  background: #000;
+  height: 80px;
   display: flex;
-  flex-direction: column;
-}
-
-.bg-navbar {
-  background: #19191d;
-  height: 100vw;
-  width: 250px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-.profile-pic {
-  border-radius: 50%;
-  width: 180px;
-  height: 180px;
-  margin: 30px;
-}
-
-.box-profile {
+  justify-content: center;
   align-items: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
 }
-
-/* .fontawesomeicon {
+.Navbar {
+  color: #fff;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
   display: flex;
-} */
-
-/* .contrainer {
-  margin: auto;
-} */
+  align-items: center;
+  margin-left: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.Nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+}
+.Nav-item {
+  height: 80px;
+}
+.Nav-Link {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}

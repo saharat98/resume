@@ -14,7 +14,7 @@
 
 .App {
   display: flex;
-  min-height: 100vw;
+  min-height: 100vh;
   flex-direction: column;
   min-width: 100vw;
 }

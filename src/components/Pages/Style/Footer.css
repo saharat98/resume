@@ -1,0 +1,15 @@
+.footer {
+  width: 100vw;
+  /* margin-left: 15%; */
+  padding: 20px;
+  /* height: 10px; */
+  background: rgb(136, 128, 128);
+}
+.icon-detail {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  margin-left: 8%;
+
+  /* justify-content: space-evenly; */
+}
