@@ -1,16 +1,14 @@
 .footer {
-  width: 100vw;
+  width: 0 auto;
   /* margin-left: 15%; */
   padding: 20px;
-  /* height: 10px; */
-  background: rgb(136, 128, 128);
-  /* width: 0 auto; */
-}
-.icon-detail {
+  /* box-sizing: border-box; */
+  background: chartreuse;
   display: flex;
-  justify-items: center;
-  align-items: center;
-  margin-left: 8%;
-
-  /* justify-content: space-evenly; */
 }
+
+.respon-contect {
+  display: flex;
+  justify-content: center;
+}
+

@@ -4,54 +4,42 @@ function Footer() {
   return (
     <>
       <div className="footer" id="contect">
-        <div className="icon-detail">
+        <div className="respon-contect">
           <a
             href="https://github.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-github fa-6x" style={{ color: "#000000" }}></i>
+            <i class="fab fa-github fa-3x" style={{ color: "#000000" }}></i>
           </a>
           <p
             style={{
               alignSelf: "center",
-              fontSize: "1.4rem",
+              fontSize: "1rem",
               marginLeft: 10,
+              display: "flex",
             }}
           >
             https://github.com/saharat98
           </p>
-          <div className="icon-detail">
-            <a
-              href="mailto:saharatpwork@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fas fa-envelope fa-6x" style={{ color: "#000000" }}></i>
-            </a>
+          <a
+            href="mailto:saharatpwork@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-envelope fa-3x" style={{ color: "#000000" }}></i>
+          </a>
 
-            <p
-              style={{
-                alignSelf: "center",
-                fontSize: "1.4rem",
-                marginLeft: 10,
-              }}
-            >
-              saharatpwork@gmail.com
-            </p>
-          </div>
-          <div className="icon-detail">
-            <i class="fas fa-mobile-alt fa-6x" style={{ color: "#000000" }}></i>
-            <p
-              style={{
-                alignSelf: "center",
-                fontSize: "1.4rem",
-                marginLeft: 10,
-              }}
-            >
-              093-1301375
-            </p>
-          </div>
+          <p
+            style={{
+              alignSelf: "center",
+              fontSize: "1rem",
+              marginLeft: 10,
+              display: "flex",
+            }}
+          >
+            saharatpwork@gmail.com
+          </p>
         </div>
       </div>
     </>

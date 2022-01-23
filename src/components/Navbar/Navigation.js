@@ -24,9 +24,9 @@ function Navigation(props) {
             <Link className="Nav-Link" to="resume">
               Resume
             </Link>
-            <Link className="Nav-Link" to="contect">
+            {/* <Link className="Nav-Link" to="contect">
               Contect
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

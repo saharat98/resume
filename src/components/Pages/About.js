@@ -16,7 +16,7 @@ import css3_logo from "./../../assets/css3.png";
 function About() {
   return (
     <>
-      <div className="about-css" id='about'>
+      <div className="about-css" id="about">
         <h2>About Me</h2>
         <p className="text-about">
           I am very interested and eager to find more knowledge In programming
@@ -90,19 +90,21 @@ function About() {
           </table>
         </div>
         <h2 style={{ margin: "50px" }}>Skills</h2>
-        <div className="skills-detail">
-          <img alt="" src={react_logo} width="200" height="100" />
-          <img alt="" src={python_logo} width="200" height="100" />
-          <img alt="" src={css3_logo} width="200" height="100" />
-          <img alt="" src={javascript} width="200" height="100" />
-          <img alt="" src={html5} width="200" height="100" />
-          <img alt="" src={odoo} width="200" height="100" />
-          <img alt="" src={mysql} width="200" height="100" />
-          <img alt="" src={flutter} width="200" height="100" />
-          <img alt="" src={firebase} width="200" height="100" />
-          <img alt="" src={dart} width="200" height="100" />
-          <img alt="" src={csharp} width="200" height="100" />
-          <img alt="" src={postgresql} width="200" height="100" />
+        <div className="box-skills">
+          <div className="skills-detail">
+            <img alt="" src={react_logo} width="200" height="100" />
+            <img alt="" src={python_logo} width="200" height="100" />
+            <img alt="" src={css3_logo} width="200" height="100" />
+            <img alt="" src={javascript} width="200" height="100" />
+            <img alt="" src={html5} width="200" height="100" />
+            <img alt="" src={odoo} width="200" height="100" />
+            <img alt="" src={mysql} width="200" height="100" />
+            <img alt="" src={flutter} width="200" height="100" />
+            <img alt="" src={firebase} width="200" height="100" />
+            <img alt="" src={dart} width="200" height="100" />
+            <img alt="" src={csharp} width="200" height="100" />
+            <img alt="" src={postgresql} width="200" height="100" />
+          </div>
         </div>
       </div>
     </>
