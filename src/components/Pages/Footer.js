@@ -3,7 +3,7 @@ import "./Style/Footer.css";
 function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="contect">
         <div className="icon-detail">
           <a
             href="https://github.com/"

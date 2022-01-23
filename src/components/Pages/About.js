@@ -1,7 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Style/About.css";
-import Box from "./Box";
-import Grid from "./Grid";
 import react_logo from "./../../assets/reactjs_logo.svg";
 import python_logo from "./../../assets/python_logo.svg";
 import postgresql from "./../../assets/postgresql_logo.png";
@@ -18,7 +16,7 @@ import css3_logo from "./../../assets/css3.png";
 function About() {
   return (
     <>
-      <div className="about-css">
+      <div className="about-css" id='about'>
         <h2>About Me</h2>
         <p className="text-about">
           I am very interested and eager to find more knowledge In programming

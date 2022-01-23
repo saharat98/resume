@@ -25,10 +25,10 @@
   align-items: center;
   list-style: none;
   text-align: center;
-  margin-right: -22px;
 }
 .Nav-item {
   height: 80px;
+  display: flex;
 }
 .Nav-Link {
   color: #fff;
@@ -38,4 +38,13 @@
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
+}
+
+.Nav-Link:hover {
+  padding-bottom: 12px;
+  border-bottom: 5px solid rgb(194, 34, 34);
+}
+
+.nav-menu {
+  display: flex;
 }

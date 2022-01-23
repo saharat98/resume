@@ -10,6 +10,7 @@ function Home() {
   return (
     <>
       <div
+        id="home"
         className="home-css"
         style={{ backgroundImage: `url(${background})` }}
       >

@@ -4,6 +4,7 @@
   padding: 20px;
   /* height: 10px; */
   background: rgb(136, 128, 128);
+  /* width: 0 auto; */
 }
 .icon-detail {
   display: flex;

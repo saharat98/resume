@@ -269,6 +269,7 @@ function Resume() {
             outline: "#BFBFBF",
             margin: "0 auto",
             textAlign: "center",
+            opacity: 0,
           }}
         />
       </div>
