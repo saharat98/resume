@@ -26,15 +26,15 @@ function About() {
           <table>
             <thead>
               <tr>
-                <th colspan="2">
+                <th colSpan="2">
                   <i
-                    class="fa fa-info-circle fa-2x"
+                    className="fa fa-info-circle fa-2x"
                     style={{ color: "#5FC9F3" }}
                   ></i>
                 </th>
               </tr>
               <tr>
-                <th colspan="2">INFO</th>
+                <th colSpan="2">INFO</th>
               </tr>
             </thead>
             <tbody>
@@ -59,15 +59,15 @@ function About() {
           <table>
             <thead>
               <tr>
-                <th colspan="2">
+                <th colSpan="2">
                   <i
-                    class="fas fa-user-graduate fa-2x"
+                    className="fas fa-user-graduate fa-2x"
                     style={{ color: "#F0A441" }}
                   ></i>
                 </th>
               </tr>
               <tr>
-                <th colspan="2">Education</th>
+                <th colSpan="2">Education</th>
               </tr>
             </thead>
             <tbody>

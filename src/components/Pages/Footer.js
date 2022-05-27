@@ -10,7 +10,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fab fa-github fa-3x" style={{ color: "#000000" }}></i>
+            <i classNam="fab fa-github fa-3x" style={{ color: "#000000" }}></i>
           </a>
           <p
             style={{
@@ -27,7 +27,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i class="fas fa-envelope fa-3x" style={{ color: "#000000" }}></i>
+            <i className="fas fa-envelope fa-3x" style={{ color: "#000000" }}></i>
           </a>
 
           <p

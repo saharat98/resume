@@ -28,7 +28,7 @@ h2 {
 
 table {
   border: 2px solid rgb(65, 65, 65);
-  width: 40%;
+  width: 50%;
   /* margin-left: 10px; */
 }
 thead {
@@ -42,37 +42,46 @@ tr {
 }
 .detail-middle-box {
   display: flex;
-  margin-left: 50px;
-  justify-content: space-evenly;
+  justify-content: center;
   justify-self: center;
+  gap: 5rem;
 
   /* flex-direction: column; */
 }
 
 .skills-detail {
-  /* grid-template-columns: repeat(4, 1fr); */
-  /* flex-direction: row; */
-  /* order: 5; */
-  /* display: grid; */
-  /* flex-grow: 4; */
-  /* width: 100vw; */
-  height: 100%;
-  /* gap: 0; */
-  /* align-self: auto; */
-  gap: 10px 20px;
-}
-.box-skills {
-  display: flex;
-  text-align: center;
-  gap: 10px 20px;
+  display: flex 1 0 auto;
+  /* height: 100%; */
+  row-gap: 1rem;
+  column-gap: 1rem;
+  gap: 80px;
 }
 
+
+
 @media (max-width: 480px) {
-  .skills-detail {
-    flex-direction: column;
-    display: flex;
-    gap: 10px 20px;
+.skills-detail {
+    display: flex 1 0 100;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
   }
+  .text-about {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    align-items: center;
+  }
+  .detail-middle-box
+   {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 60px;
+    font-size: 0.7rem;
+  }
+ 
 }
 @media (max-width: 780px) {
   .detail-middle-box,
@@ -81,6 +90,8 @@ tr {
     display: flex;
     width: 50vw;
     gap: 10px 20px;
+    justify-content: center;
+    align-items: center;
   }
   table {
     color: rgb(0, 0, 0);
